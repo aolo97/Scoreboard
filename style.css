@@ -1,0 +1,44 @@
+body {
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-top: 10%;
+    background-image: url(img.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+#container {
+    padding: 8px;
+    max-width: 60%;
+    background-color: rgba(14, 9, 1, 0.279);
+    margin: auto;
+    border-radius: 15px;
+    border: none;
+    padding-bottom: 80px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    font-weight: bolder;
+    background-color:gray;
+}
+
+button:hover {
+    background-color:azure;
+}
+
+#score {
+    margin-bottom: 10px;
+}
+
+#clock {
+    margin-bottom: 10px;
+}
